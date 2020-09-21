@@ -47,7 +47,7 @@ class Buttons extends Component {
         return(
             <div id="buttons">
                 <button onClick={() => {this.mockify()}}>Mockify</button>
-                <button onClick={(e)=> this.copyMockify()}>Copy</button>
+                <button onClick={(e)=> this.copyMockify(e)}>Copy</button>
             </div>
         );
     }

@@ -15,8 +15,8 @@ class App extends Component {
 				<Header />
 				<div id="mockify-area">
 					<TextField />
-				</div>
-                <Buttons />
+                    <Buttons />
+                </div>
 			</div>
         );
     }

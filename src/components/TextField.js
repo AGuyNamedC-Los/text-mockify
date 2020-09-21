@@ -7,7 +7,7 @@ class TextField extends Component {
 
     render() {
         return (
-            <textarea id="text-area" name="mockify-area" rows="25" placeholder="ENTER YOUR TEXT HERE" spellCheck="false">
+            <textarea id="text-area" name="mockify-area" placeholder="ENTER YOUR TEXT HERE" spellCheck="false">
 
             </textarea>
         );
