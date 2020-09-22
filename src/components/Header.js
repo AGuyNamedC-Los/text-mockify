@@ -10,7 +10,7 @@ class Header extends Component {
         return (
             <header>
                 <div id="profile-links">
-                    <a href="https://github.com/AGuyNamedC-Los" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                    <a href="https://github.com/AGuyNamedC-Los/text-mockify" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
                     <a href="https://carlos-castillo-portfolio.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-user-circle"></i></a>
                 </div>
                 <img src={MockingSB} alt="Mocking Sponge Bob"></img>

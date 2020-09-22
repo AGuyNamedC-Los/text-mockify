@@ -43,7 +43,7 @@ h1 {
 	margin: 0 auto;
 }
 
-a {margin-top: 10px;}
+a {margin: 1rem 3rem 0;}
 
 #profile-links a i {
 	color: var(--button);
@@ -51,9 +51,31 @@ a {margin-top: 10px;}
 	font-size: 3rem;
 }
 
-#profile-links a:hover {
-	background-color: var(--background);
+#profile-links a:hover i {
 	border-radius: 10px;
+	background-color: var(--button);
+}
+
+#profile-links a:hover i {color: var(--text-area-background-1)}
+
+#profile-links a:hover::after {
+	position: absolute;
+	display: block;
+	border: solid;
+	padding: .25rem .5rem;
+	border-radius: 10px;
+	color: var(--button);
+	border-color: var(--background);
+}
+
+#profile-links a:nth-child(1):hover::after {
+	content: "view code";
+	transform: translate(-16%, .5rem);
+}
+
+#profile-links a:nth-child(2):hover::after {
+	content: "my webste portfolio";
+	transform: translate(-28%, .5rem);
 }
 
 img {
@@ -108,7 +130,6 @@ textarea {
 	#mockify-area {
 		width: 100%;
 		max-width: 90%;
-		/* height: 30rem; */
 	}
 }
 
