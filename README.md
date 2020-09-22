@@ -9,7 +9,7 @@ A React website that can take any piece of plain text and transform it into a ra
 
 # Motivation
 
-
+Inspired by the mocking spongebob meme, I created this website to make it easier to create text like this: *Lorem iPsum DOlOr sIt AmEt, coNsectEtur adipiSCiNg elit, sEd DO eiusmoD tempoR incidIDUnt Ut laborE eT dOlORe maGna AlIquA. eget nunc sceLErisQUe vivErrA Mauris.*
 
 # Technological Tools Used
 
