@@ -24,7 +24,7 @@ Inspired by the mocking spongebob meme, I created this website to make it easier
 - :file_folder: **src**
     - :file_folder: **components** : folder containing all the components used in the App.js file
         - :page_facing_up: **Button.js**: component that creates the "mockify" and "copy" buttons of the page
-        - :page_facing_up: **Header.js**:page_facing_up: : component that creates the the top portion of the page that includes links, title, image, and short example of how the website works 
+        - :page_facing_up: **Header.js**: component that creates the the top portion of the page that includes links, title, image, and short example of how the website works 
         - :page_facing_up: **TextField.js**: component that creates the textarea of the website
     - :page_facing_up: **App.css**: all the css for the app
     - :page_facing_up: **App.js**: file containing all of the components used to create the website
