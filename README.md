@@ -5,7 +5,7 @@ A [text mockifying website](https://carlos-castillo-portfolio.herokuapp.com/) th
 
 # Description
 
-A React website that can take any piece of plain text and transform it into a random assortment of upper and lower cased letters 
+A React website that can take any piece of plain text and transform it into a random assignment of upper and lower cased letters 
 
 # Motivation
 
@@ -21,10 +21,10 @@ Inspired by the mocking spongebob meme, I created this website to make it easier
 
 # Github Code Navigation
 
-- **src** :file_folder:
-    - **components** :file_folder: : folder containing all the components used in the App.js file
-        - **Button.js** :page_facing_up: : component that creates the "mockify" and "copy" buttons of the page
-        - **Header.js** :page_facing_up: : component that creates the the top portion of the page that includes links, title, image, and short example of how the website works 
-        - **TextField.js** :page_facing_up: : component that creates the textarea of the website
-    - **App.css** :page_facing_up: : all the css for the app
-    - **App.js** :page_facing_up: : file containing all of the components used to create the website
+- :file_folder: **src**
+    - :file_folder: **components** : folder containing all the components used in the App.js file
+        - :page_facing_up: **Button.js**: component that creates the "mockify" and "copy" buttons of the page
+        - :page_facing_up: **Header.js**:page_facing_up: : component that creates the the top portion of the page that includes links, title, image, and short example of how the website works 
+        - :page_facing_up: **TextField.js**: component that creates the textarea of the website
+    - :page_facing_up: **App.css**: all the css for the app
+    - :page_facing_up: **App.js**: file containing all of the components used to create the website
