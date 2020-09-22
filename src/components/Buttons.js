@@ -25,18 +25,21 @@ class Buttons extends Component {
 
     copyMockify(e) {
         let copyText = document.getElementsByTagName("textarea")[0];
+        let copyButton = document.getElementById("buttons").children[1];
         copyText.select();
         copyText.setSelectionRange(0, 99999);   /*For mobile devices*/
         document.execCommand("copy");   /* Copy the text inside the text field */
-        e.target.innerHTML = "Copied!";
+        copyButton.innerHTML = "Copied!";
 
         copyText.style.opacity = 0;
         setTimeout(()=> {
             copyText.style.opacity = 1;
             document.getSelection().removeAllRanges();
-            
-        }, 200);
-        e.target.innerHTML = "Copy";
+        }, 300);
+
+        setTimeout(()=> {
+            copyButton.innerHTML = "Copy";
+        }, 1000);
     }
 
     bouncyButton(e) {

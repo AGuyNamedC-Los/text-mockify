@@ -149,12 +149,15 @@ textarea {
 }
 
 #buttons > button {
+	font-size: 1.25rem;
 	cursor: pointer;
 	border: 0;
 	font-weight: 700;
 	font-family: inherit;
-	padding: 1rem 3rem;
+	padding: .75rem 0rem;
 	border-radius: 10px;
+	width: 100%;
+	max-width: 10rem;
 	outline: none;
 	background-color: var(--button);
 	color: white;
