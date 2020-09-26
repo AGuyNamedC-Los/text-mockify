@@ -1,11 +1,7 @@
 # Text Mockify
 
-A [text mockifying website](https://carlos-castillo-portfolio.herokuapp.com/) that alters inputed text
+A [text mockifying website](https://carlos-castillo-portfolio.herokuapp.com/) that alters inputed text into a random assignment of upper and lower cased letter
 - Please allow a couple seconds for the website to load.
-
-# Description
-
-A React website that can take any piece of plain text and transform it into a random assignment of upper and lower cased letters 
 
 # Motivation
 
